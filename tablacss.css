@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th{
+    height: 50px;
+    background-color: rgb(137, 184, 255);
+}
+
+th{
+    text-align: left;
+    padding-left: 10px;
+}
+
+tr{
+    text-align: right;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(209, 209, 209);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+tr th:nth-child(2){
+    border-right: 1px solid grey;
+}
